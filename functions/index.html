@@ -3,8 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Part1</title>
+    <title>Part1 - Functions</title>
     <script src="main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <h3>traditional function</h3>
+
+<pre>function add(a, b) {
+  return a + b;
+}</pre>
+
+<pre>console.log(add(3, 4));</pre>
+
+<h3>add to variable</h3>
+
+<pre>const x = function multiply(a, b) {
+  return a * b;
+};</pre>
+
+<pre>console.log(x(4, 6));</pre>
+
+<h3>arrow function</h3>
+
+<pre>const subtract = (a, b) => {
+  return a - b;
+};</pre>
+
+<pre>console.log(subtract(7, 2));</pre>
+
+<h3>arrow function (one line)</h3>
+
+<pre>const divide = (a, b) => a / b;</pre>
+
+<pre>console.log(divide(15, 5));</pre>
+  </body>
 </html>
